@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Raleway&display=swap');
+@import "keep-react/css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+    --main: #5D595F;
+    --secondary: #2D232E;
+    --accent: #E0DDCF;
+    --dark: #534B52;
+    --dark_accent: #F1F0EA; 
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(var(--main), #212121);
+    color: var(--dark_accent);
+    font-family: 'Raleway', sans-serif;
+}
+
+.nabla {
+    font-family: 'Nabla', system-ui;
+}
+  
+.raleway{
+    font-family: 'Raleway', sans-serif;
+}
