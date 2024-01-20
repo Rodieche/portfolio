@@ -1,0 +1,61 @@
+.margined {
+    height: calc(100vh - 200px);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: cen;
+}
+
+.title {
+    color: #fff;
+    font-size: 5em;
+    font-weight: 600;
+    padding: 0 100px;
+}
+
+.title span {
+    position: relative;
+    color: rgba(255, 255, 255, 0.1);
+    animation: displayText 9s infinite;
+    animation-delay: calc(-3s * var(--i));
+}
+
+.text-shadow {
+    text-shadow: 1px 1px 5px #ccc;
+}
+
+@keyframes displayText {
+    0% {
+        display: inline-block;
+    }
+    33.33%, 100% {
+        display: none;
+    }
+}
+
+.title span::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #01fe87;
+    overflow: hidden;
+    border-right: 4px solid #01fe87;
+    filter: drop-shadow(0 0 5px #01fe87) drop-shadow(0 0 25px #01fe87);
+    animation: animate 3s linear infinite;
+}
+
+@keyframes animate {
+    0%, 10%, 100% {
+        width: 0;
+    }
+    70%,90% {
+        width: 100%;
+    }
+
+}
+
+.image-shadow{
+    filter: drop-shadow(0px 0px 5px #01fe87);
+}

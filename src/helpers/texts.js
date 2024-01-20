@@ -5,7 +5,7 @@ const MESSAGES = {
             name: 'Engineer...'
         },
         {
-            name: 'Developer...'
+            name: 'Coder...'
         },
         {
             name: 'Rodolfo.'
@@ -44,6 +44,49 @@ const MESSAGES = {
         {
             name: 'Contact',
             link: '/contact'
+        }
+    ],
+    TECHNOLOGIES: [
+        {
+            name: 'Networking',
+            icon: 'fa-solid fa-wifi',
+            color: '#2D232E',
+            textColor: '#E0DDCF'
+        },
+        {
+            name: 'Windows Server',
+            icon: 'fa-brands fa-windows',
+            color: '#092642',
+            textColor: '#fff'
+        },
+        {
+            name: 'Linux',
+            icon: 'fa-brands fa-linux',
+            color: '#2E3440',
+            textColor: '#EBCB8B'
+        },
+        {
+            name: 'Javascript',
+            icon: 'fa-brands fa-js',
+            color: '#323330',
+            textColor: '#F0DB4F'
+        },
+        {
+            name: 'React',
+            icon: 'fa-brands fa-react',
+            color: '#000',
+            textColor: '#61DBFB'
+        },
+        {
+            name: 'NodeJS',
+            icon: 'fa-brands fa-node',
+            color: '#303030',
+            textColor: '#68a063'
+        },{
+            name: 'MongoDB',
+            icon: 'fa-solid fa-database',
+            color: '#021C28',
+            textColor: '#0AB755'
         }
     ]
 }
