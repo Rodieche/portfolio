@@ -33,10 +33,10 @@ export const Presentation = () => {
             <CopyText />
           </div>
           <div style={{ marginTop: '30px' }}>
-            <button>
+            <a href='https://rechenique.super.site' target='_blank'>
               <i className='fa-solid fa-cloud-arrow-down'></i>&nbsp;
-              Download CV
-            </button>
+              CV Website
+            </a>
           </div>
         </Col>
       </Row>
